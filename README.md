@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @bubba-94
-- 👀 I’m interested in skiing (on-piste ofc). 
+- 👀 I’m interested in skiing (on-piste ofc) and this newly found intrest for programming!
 - 🌱 I’m currently learning C/C++
-- 💞️ I’m looking to collaborate on ...
+- 💞️ I’m looking to collaborate on anything when the confidence is high enough.
 - 📫 How to reach me ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: The world's largest living organism is a giant fungus that spans 2,385 acres (that's about 1,665 football fields!) in Oregon's Malheur National Forest. 🍄
