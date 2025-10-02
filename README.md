@@ -14,7 +14,8 @@ You can click the Preview link to take a look at your changes.
 
 ## GUIDES
 
-[Link to my setup](/docs/setup.md)
-[Docker](docs/DOCKER.md)
-[Git](docs/GIT.md)
-[Python](docs/PYTHON.md)
+* [Link to my setup](/docs/setup.md)
+* [Docker](docs/DOCKER.md)
+* [Git](docs/GIT.md)
+* [Python](docs/PYTHON.md)
+* 
