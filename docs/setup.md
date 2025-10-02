@@ -72,3 +72,5 @@ cat ~/.ssh/id_ed25519.pub
         * Python
 
 7. Install C/C++ compiler and Python package manager, i will provide a link to my own script that will install needed packages for compiling C/C++ and developing Python applications(!!Remember to make the file executable!!). [LINK](../scripts/packages.sh)
+
+8. Optional!: Install Docker Desktop is installed on Windows and WSL integration.
