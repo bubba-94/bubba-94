@@ -17,6 +17,39 @@ git config --global core.editor "code --wait"
 git config --list
 ```
 
+## Deletetions
+
+```bash
+# Safe delete (wont delete if unmerged)
+git branch -d branch_name
+
+# Force delete
+git branch -D branch_name
+
+# Delete remote branch
+git push origin --delete branch_name
+
+# Delete local tag
+git tag -d tag_name
+
+# Delete remote tag
+git push origin --delete tag_name
+
+# Delete file (and stage the deletion)
+git rm file_name
+git commit -m "delete file name"
+
+# Delete file only from repo, keep locally
+git rm --cached file_name
+git commit -m "remove file_name from repo but keep local copy
+
+# Delete last stash
+git stash drop
+
+# Delete specific stash
+git stash drop stash@{n}
+```
+
 ## Repository basics
 
 ```bash
