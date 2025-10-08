@@ -18,6 +18,16 @@ exit
 # Commit container changes to new image
 docker commit mytest myubuntu:custom
 ```
+## Building images
+
+```bash
+# Building from a Dockerfile in "." location (source)
+# -t tag an image (image_name:version)
+# -f specify a custom filepath (-f ./Dockerfile.dev)
+# -- no-cache build image without using cache
+# --build-arg pass build time variables
+
+docker build -t image_name:version .
 
 ## Pulling & Running images
 
@@ -58,7 +68,7 @@ docker rm mycontainer
 
 ```bash
 # List local images
-docker images
+docker images 
 
 # Remove an image
 docker rmi ubuntu:22.04
