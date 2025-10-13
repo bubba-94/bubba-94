@@ -15,9 +15,10 @@ You can click the Preview link to take a look at your changes.
 ## MY SETUP
 
 * [Link to my setup](/docs/SETUP_IDE.md)
-* 
+
 ## GUIDES
 
 * [Docker](docs/DOCKER.md)
 * [Git](docs/GIT.md)
 * [Python](docs/PYTHON.md)
+* [Linux](docs/LINUX.md)
