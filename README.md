@@ -12,13 +12,26 @@ bubba-94/bubba-94 is a ✨ special ✨ repository because its `README.md` (this 
 You can click the Preview link to take a look at your changes.
 --->
 
-## MY SETUP
+## MY SETUP (Needs work)
 
 * [Link to my setup](/docs/SETUP_IDE.md)
 
 ## GUIDES
 
+### Languages
+
+* [C](docs/C.md)
+* [C++](docs/C++.md)
+* [Python](docs/PYTHON.md)
+
+### Tools
+
+* [CMake](docs/CMAKE.md)
+* [Makefile](docs/MAKEFILE.md)
 * [Docker](docs/DOCKER.md)
 * [Git](docs/GIT.md)
-* [Python](docs/PYTHON.md)
+
+
+### OS
+
 * [Linux](docs/LINUX.md)
