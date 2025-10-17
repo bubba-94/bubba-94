@@ -20,18 +20,19 @@ You can click the Preview link to take a look at your changes.
 
 ### Languages
 
-* [C](docs/C.md)
-* [C++](docs/C++.md)
-* [Python](docs/PYTHON.md)
+* [C](languages/docs/C.md)
+    * [Format Specifiers](languages/docs/C-FORMAT-SPECIFIERS.md)
+* [C++](languages/docs/C++.md)
+* [Python](languages/docs/PYTHON.md)
 
 ### Tools
 
-* [CMake](docs/CMAKE.md)
-* [Makefile](docs/MAKEFILE.md)
-* [Docker](docs/DOCKER.md)
-* [Git](docs/GIT.md)
+* [CMake](tools/docs/CMAKE.md)
+* [Makefile](tools/docs/MAKEFILE.md)
+* [Docker](tools/docs/DOCKER.md)
+* [Git](tools/docs/GIT.md)
 
 
 ### OS
 
-* [Linux](docs/LINUX.md)
+* [Linux](os/docs/LINUX.md)
