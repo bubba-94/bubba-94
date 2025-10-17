@@ -14,25 +14,25 @@ You can click the Preview link to take a look at your changes.
 
 ## MY SETUP (Needs work)
 
-* [Link to my setup](/docs/SETUP_IDE.md)
+* [Link to my setup](/docs/0_SETUP_IDE.md)
 
 ## GUIDES
 
 ### Languages
 
-* [C](languages/docs/C.md)
-    * [Format Specifiers](languages/docs/C-FORMAT-SPECIFIERS.md)
-* [C++](languages/docs/C++.md)
-* [Python](languages/docs/PYTHON.md)
+* [C](docs/languages/C.md)
+    * [Format Specifiers](docs/languages/C-FORMAT-SPECIFIERS.md)
+* [C++](docs/languages/C++.md)
+* [Python](docs/languages/PYTHON.md)
 
 ### Tools
 
-* [CMake](tools/docs/CMAKE.md)
-* [Makefile](tools/docs/MAKEFILE.md)
-* [Docker](tools/docs/DOCKER.md)
-* [Git](tools/docs/GIT.md)
+* [CMake](docs/tools/CMAKE.md)
+* [Makefile](docs/tools/MAKEFILE.md)
+* [Docker](docs/tools/DOCKER.md)
+* [Git](docs/tools/GIT.md)
 
 
 ### OS
 
-* [Linux](os/docs/LINUX.md)
+* [Linux](docs/os/+LINUX.md)
