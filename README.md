@@ -20,6 +20,7 @@ You can click the Preview link to take a look at your changes.
 
 ### Languages
 
+* [Bash](docs/languages/BASH.md)
 * [C](docs/languages/C.md)
     * [Format Specifiers](docs/languages/C-FORMAT-SPECIFIERS.md)
 * [C++](docs/languages/C++.md)
@@ -28,9 +29,9 @@ You can click the Preview link to take a look at your changes.
 ### Tools
 
 * [CMake](docs/tools/CMAKE.md)
-* [Makefile](docs/tools/MAKEFILE.md)
 * [Docker](docs/tools/DOCKER.md)
 * [Git](docs/tools/GIT.md)
+* [Makefile](docs/tools/MAKEFILE.md)
 
 
 ### OS

@@ -1,37 +1,81 @@
 # Makefile Cheat Sheet
 
+## Useful built-in functions
+
+| Function                       | Description         | Example               |
+| ------------------------------ | ------------------- | --------------------- |
+| `$(wildcard pattern)`          | Matches files       | `$(wildcard src/*.c)` |
+| `$(patsubst %.c, %.o, $(SRC))` | Replace suffix      | Convert `.c` → `.o`   |
+| `$(dir $(SRC))`                | Extract directories |                       |
+| `$(notdir $(SRC))`             | Extract filenames   |                       |
+| `$(basename $(SRC))`           | Remove extension    |                       |
+| `$(addprefix dir/, file)`      | Add prefix          |                       |
+
 ## Basic structure
 
 ```makefile
 # target: dependencies
 # (tab) command(s)
 
-main: main.c                         # Target depends on main.c
-	gcc main.c -o main              # Command to build executable
+main: main.c                   # Target depends on main.c
+	gcc main.c -o main         # Command to build executable
+
 ```
 
-## Variable examples
+## Variable and Substitution
 
 ```makefile
-CC = gcc                             # Compiler
-CFLAGS = -Wall -Wextra -std=c11 -g   # Compiler flags
-SRC = main.c utils.c                 # Source files
-OBJ = $(SRC:.c=.o)                   # Convert .c to .o file names
-TARGET = program                     # Output name
+CC      = gcc                  # Compiler
+CFLAGS  = -Wall -Wextra -std=c11 -g  # Compiler flags
+SRC     = main.c utils.c        # Source files
+OBJ     = $(SRC:.c=.o)          # Convert .c → .o
+TARGET  = program               # Executable name
 
-$(TARGET): $(OBJ)                    # Target depends on object files
-	$(CC) $(CFLAGS) $(OBJ) -o $(TARGET)  # Link object files
+$(TARGET): $(OBJ)               # Link object files
+	$(CC) $(CFLAGS) $(OBJ) -o $(TARGET)
 
-clean:                               # Clean build artifacts
-	rm -f $(OBJ) $(TARGET)           # Delete object files and executable
+clean:                          # Remove build artifacts
+	rm -f $(OBJ) $(TARGET)
+
+```
+
+## Automatic variables
+
+| Variable | Meaning                             |
+| -------- | ----------------------------------- |
+| `$@`     | The target filename                 |
+| `$<`     | The first prerequisite (dependency) |
+| `$^`     | All prerequisites (space-separated) |
+| `$?`     | Prerequisites newer than target     |
+
+```makefile 
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@ # Example
 ```
 
 ## Pattern rules & special variables
 
 ```makefile
-%.o: %.c                             # Pattern: build .o from .c
-	$(CC) $(CFLAGS) -c $< -o $@     # $< = first dependency (.c file)
-                                     # $@ = target name (.o file)
+%.o: %.c                       # Rule for any .c → .o
+	$(CC) $(CFLAGS) -c $< -o $@
+# Pattern rules help handle many files with one definition
+```
+
+## Automatic dependency generation
+
+* Keep your .o files aware of header changes
+```makefile
+CFLAGS += -MMD -MP             # Auto-generate .d files
+
+SRC = main.c utils.c
+OBJ = $(SRC:.c=.o)
+DEP = $(OBJ:.o=.d)
+
+program: $(OBJ)
+	$(CC) $(CFLAGS) $(OBJ) -o $@
+
+-include $(DEP)                # Include generated dependency files
+
 ```
 
 ## Phony targets
@@ -49,26 +93,36 @@ clean:
 ## Parallel builds
 
 ```makefile
-make -j4                             # Build using 4 CPU cores in parallel
-make -n                              # Show what would be executed (dry run)
+make -j4       # Build using 4 cores
+make -n        # Print commands without executing (dry run)
+make -B        # Force rebuild everything
+make VERBOSE=1 # Use your own flags for debugging
 ```
 
-## Multi file project example
+## Multi directory example
 ```makefile
-CC = gcc                             # Compiler
-CFLAGS = -Wall -Wextra -Iinclude -std=c11 -g  # Flags + include dir
-SRC = src/main.c src/utils.c         # Source files
-OBJ = $(SRC:.c=.o)                   # Object files
-TARGET = bin/program                 # Output binary
+CC      = gcc
+CFLAGS  = -Wall -Wextra -std=c11 -g -Iinclude
+SRC_DIR = src
+OBJ_DIR = build
+BIN_DIR = bin
 
-all: $(TARGET)                       # Default target builds program
+SRC     = $(wildcard $(SRC_DIR)/*.c)
+OBJ     = $(patsubst $(SRC_DIR)/%.c,$(OBJ_DIR)/%.o,$(SRC))
+TARGET  = $(BIN_DIR)/program
+
+all: $(TARGET)
 
 $(TARGET): $(OBJ)
-	mkdir -p bin                     # Ensure bin/ exists
-	$(CC) $(OBJ) -o $(TARGET)       # Link object files
+	@mkdir -p $(BIN_DIR)
+	$(CC) $(CFLAGS) $(OBJ) -o $@
+
+$(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
+	@mkdir -p $(OBJ_DIR)
+	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -rf $(OBJ) $(TARGET)          # Clean build artifacts
+	rm -rf $(OBJ_DIR) $(BIN_DIR)
 
-.PHONY: all clean                    # Prevent confusion with file names
+.PHONY: all clean
 ```
