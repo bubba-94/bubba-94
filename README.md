@@ -16,7 +16,7 @@ You can click the Preview link to take a look at your changes.
 
 * [Link to my setup](/docs/0_SETUP_IDE.md)
 
-## GUIDES
+## Cheat Sheets
 
 ### Languages
 
