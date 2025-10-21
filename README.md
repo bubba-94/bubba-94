@@ -36,4 +36,8 @@ You can click the Preview link to take a look at your changes.
 
 ### OS
 
-* [Linux](docs/os/+LINUX.md)
+* [Linux](docs/os/LINUX.md)
+
+### Formats
+
+* [Markdown](docs/formats/MARKDOWN.md)
