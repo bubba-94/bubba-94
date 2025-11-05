@@ -25,6 +25,7 @@ You can click the Preview link to take a look at your changes.
     * [Format Specifiers](docs/languages/C-FORMAT-SPECIFIERS.md)
     * [Bit Operations](docs/languages/BIT-OPERATIONS.md)
 * [C++](docs/languages/C++.md)
+* [HTML](docs/languages/HTML.md)
 * [Python](docs/languages/PYTHON.md)
 
 ### Tools
