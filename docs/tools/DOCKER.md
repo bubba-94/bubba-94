@@ -28,6 +28,7 @@ docker commit mytest myubuntu:custom
 # --build-arg pass build time variables
 
 docker build -t image_name:version .
+```
 
 ## Pulling & Running images
 
