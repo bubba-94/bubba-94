@@ -198,13 +198,13 @@ int main() {
 ## Useful Headers
 | Header | Purpose |
 |--------|---------|
-|<iostream>|Input/output streams|
-|<string>	|String handling|
-|<vector>	|Dynamic arrays|
-|<map>	|Key-value pairs|
-|<fstream>	|File input/output|
-|<algorithm>	|Sorting, searching, etc.|
-|<cmath>	|Math functions|
+|iostream|Input/output streams|
+|string	|String handling|
+|vector	|Dynamic arrays|
+|map|Key-value pairs|
+|fstream|File input/output|
+|algorithm|Sorting, searching, etc.|
+|cmath|Math functions|
 
 ## Debugging
 ```bash
