@@ -1,0 +1,66 @@
+# --- Build directories ---
+build/
+build-*/
+cmake-build-*/
+out/
+bin/
+lib/
+
+# --- CMake generated files ---
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+CMakeScripts/
+
+# --- Compiled objects ---
+*.o
+*.obj
+*.lo
+*.la
+*.d
+*.dylib
+*.dll
+*.so
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.i
+*.ii
+*.s
+
+# --- Debugging / profiling ---
+*.gcda
+*.gcno
+*.gcov
+*.prof
+*.pdb
+*.idb
+*.opt
+*.log
+
+# --- IDE / editors ---
+# VSCode
+.vscode/
+# CLion
+.idea/
+# Eclipse
+.project
+.cproject
+.settings/
+# QtCreator
+*.pro.user
+*.qbs.user
+*.qmlproject.user
+
+# --- Misc ---
+*.swp
+*.swm
+*.tmp
+*.bak
+*.DS_Store

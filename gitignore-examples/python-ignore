@@ -1,0 +1,36 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Tools
+.mypy_cache/
+.pytest_cache/
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+ruff.toml
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints
+*.nbconvert/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
