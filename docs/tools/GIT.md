@@ -66,16 +66,19 @@ git status
 ## Tracking changes
 
 ```bash
-# Stage a single file
+# Stage single file
 git add filename
 
-# Stage all changes
+# Stage everything
 git add .
 
-# Commit staged changes with a message
+# Commit
 git commit -m "Your descriptive commit message"
 
-# View commit history
+# Commit and stage tracked files
+git commit -am "Quick commit"
+
+# Log history
 git log
 ```
 
@@ -98,65 +101,98 @@ git checkout -b new-branch
 ## Merging and syncing
 
 ```bash
-# Merge another branch into current branch
+# Merge another branch into current one
 git merge feature-branch
 
-# Pull latest changes from remote
+# Pull latest changes
 git pull origin main
 
-# Push local commits to remote
+# Push commits to remote
 git push origin main
+
+# Set upstream for current branch
+git push --set-upstream origin branch_name
+
+# Push *local_branch* to *remote_branch* (super useful!)
+git push origin local_branch:remote_branch
+
+# Fetch all branches without merging
+git fetch
+
+# Fetch + prune deleted branches
+git fetch -p
 ```
 
 ## Undoing changes
 
 ```bash
-# Unstage a file
+# Unstage file
 git reset filename
 
-# Discard changes in working directory
+# Discard local changes
 git checkout -- filename
 
-# Revert a commit (creates a new commit)
+# Revert a commit (safe)
 git revert <commit-hash>
+
+# Reset branch to previous commit (dangerous!)
+git reset --hard <commit-hash>
 ```
 
 ## Stashing
 
 ```bash
-# Save current changes without committing
+# Stash changes
 git stash
 
-# List stashed changes
+# List stashes
 git stash list
 
-# Apply latest stash
+# Apply latest stash (keep stash)
 git stash apply
+
+# Apply and delete
+git stash pop
 ```
 
 ## SSH Key & Remote setup
 
 ```bash
-# Generate SSH key (once)
+# Generate SSH key
 ssh-keygen -t ed25519 -C "you@example.com"
 
 # Start SSH agent and add key
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
-# Add remote repository
+# Add remote origin
 git remote add origin git@github.com:username/repo.git
+
+# View remote URLs
+git remote -v
 ```
 
 ## Shortcuts
 
 ```bash
-# Stage & commit in one command
-git commit -am "Quick commit"
-
-# Show difference between working files and last commit
+# Show diff between working files and last commit
 git diff
 
-# Show current branch and status in one line
+# Show branch + status in short mode
 git status -sb
+
+# Rename current branch
+git branch -m new_branch_name
+
+# Show which lines changed by which commit
+git blame filename
+
+# Show line-by-line changes in detail
+git show <commit-hash>
+
+# List remote branches
+git branch -r
+
+# List all branches (local + remote)
+git branch -a
 ```
