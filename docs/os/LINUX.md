@@ -81,6 +81,13 @@ ps aux              # Show all running processes
 top                 # Interactive process viewer
 htop                # Advanced interactive process viewer (if installed)
 kill <pid>          # Kill a process by PID
+kill <pid>          # Send SIGTERM (default)
+kill -15 <pid>      # Graceful stop (recommended first)
+kill -9 <pid>       # Force kill (last resort)
+pkill <name>        # Kill processes by name
+pkill -15 <name>    # Graceful kill by name
+pkill -9 <name>     # Force kill by name
+killall <name>      # Kill all processes with exact name
 free -h             # Show memory usage
 uptime              # Show system uptime
 uname -a            # Show kernel and OS info
