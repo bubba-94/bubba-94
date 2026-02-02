@@ -21,12 +21,14 @@ You can click the Preview link to take a look at your changes.
 ### Languages
 
 * [Bash](docs/languages/BASH.md)
-* [C](docs/languages/C.md)
-    * [Format Specifiers](docs/languages/C-FORMAT-SPECIFIERS.md)
-    * [Bit Operations](docs/languages/BIT-OPERATIONS.md)
-* [C++](docs/languages/C++.md)
-* [HTML](docs/languages/HTML.md)
+* [C/C++](docs/languages/)
+    * [C](docs/language/)
+    * [C++](docs/languages/C++.md)
+        * [Format Specifiers](docs/languages/helpers/C-FORMAT-SPECIFIERS.md)
+        * [Variables](docs/languages/helpers/C-CPP-VARIABLES.md)
+* [Bit Operations](docs/languages/BIT-OPERATIONS.md)
 * [Python](docs/languages/PYTHON.md)
+* [HTML](docs/languages/HTML.md)
 
 ### Tools
 
