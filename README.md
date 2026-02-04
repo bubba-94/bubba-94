@@ -24,6 +24,7 @@ You can click the Preview link to take a look at your changes.
 * [C/C++](docs/languages/)
     * [C](docs/language/)
     * [C++](docs/languages/C++.md)
+        * [Bit Operations](docs/languages/helpers/BIT-OPERATIONS.md)
         * [Format Specifiers](docs/languages/helpers/C-FORMAT-SPECIFIERS.md)
         * [Variables](docs/languages/helpers/C-CPP-VARIABLES.md)
 * [Bit Operations](docs/languages/BIT-OPERATIONS.md)
