@@ -85,7 +85,7 @@ if (x & mask) {
 | Extract high nibble             | `(x >> 4) & 0xF`              | 0xA for x=0xAB |
 | Extract low nibble              | `x & 0xF`                     | 0xB for x=0xAB |
 | Replace high nibble             | `x = (x & 0x0F) \| (0x9 << 4)`| 0x9B           |
-| Replace low nibble              | `x = (x & 0xF0) 0x3`          | 0xA3           |
+| Replace low nibble              | `x = (x & 0xF0) \| 0x3`       | 0xA3           |
 | Pack two fields (5-bit + 3-bit) | `x = (field1 << 3) \| field2` | -              |
 
 ## Field Packing / Extraction
