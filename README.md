@@ -32,13 +32,16 @@ You can click the Preview link to take a look at your changes.
 * [Python](docs/languages/PYTHON.md)
 * [HTML](docs/languages/HTML.md)
 
+### PCBs / MCUs
+
+* [STM32](docs/mcu/STM32.md)
+
 ### Tools
 
 * [CMake](docs/tools/CMAKE.md)
 * [Docker](docs/tools/DOCKER.md)
 * [Git](docs/tools/GIT.md)
 * [Makefile](docs/tools/MAKEFILE.md)
-
 
 ### OS
 
