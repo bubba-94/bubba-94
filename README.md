@@ -12,10 +12,6 @@ bubba-94/bubba-94 is a ✨ special ✨ repository because its `README.md` (this 
 You can click the Preview link to take a look at your changes.
 --->
 
-## MY SETUP (Needs work)
-
-* [Link to my setup](/docs/0_SETUP_IDE.md)
-
 ## Cheat Sheets
 
 ### Languages
