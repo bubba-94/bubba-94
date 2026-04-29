@@ -13,20 +13,19 @@
 
 ### 🛠️ Tech Stack
 
-![Skills](https://skillicons.dev/api?skills=c,cpp,cs,python,bash,html,vscode,linux,git,github,docker,cmake,make,arduino,raspberrypi,azure,kubernetes,mysql,githubactions,stm32,platformio&theme=dark&height=22)
-
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,c,cs,python,bash,html,vscode,linux,cmake,make,raspberrypi,arduino,azure,mysql,git,kubernetes,docker" />
+  </a>
+</p>
 ---
 
 ### 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=compact)
-
-![GitHub Streak](https://github-readme-streak.vercel.app/?user=bubba-94&theme=radical&hide_border=true)
-
-
----
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=compact" />
+</p>
 
 <!---
 bubba-94/bubba-94 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
