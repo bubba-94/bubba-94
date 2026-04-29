@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <b>Get in touch</b>
+  <b>GET IN TOUCH</b>
 </p>
 
 <p align="center">
