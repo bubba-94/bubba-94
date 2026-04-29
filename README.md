@@ -9,22 +9,28 @@
 
 ---
 
-### Familiar technologies
-
-### 🛠️ Tech Stack
-
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,c,cs,python,bash,html,vscode,linux,cmake,make,raspberrypi,arduino,azure,mysql,git,kubernetes,docker" />
+    <img src="https://skillicons.dev/icons?i=cpp,c,cs,python,bash,html,vscode,linux,cmake,raspberrypi,arduino,azure,mysql,git,kubernetes,docker" />
   </a>
 </p>
----
 
-### 📊 GitHub Stats
+### 📫 Contact
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=compact" />
+  <a href="mailto:carljohan.modin@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/johan-modin-025b74329/">
+    <img src="https://skillicons.dev/icons?i=linkedin" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true&width=370" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=compact&width=370" />
 </p>
 
 <!---
