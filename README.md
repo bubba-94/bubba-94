@@ -11,34 +11,9 @@
 
 ### Familiar technologies
 
-#### Languages
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24" height="24" />
+### 🛠️ Tech Stack
 
-#### Tools
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" width="24" height="24" /> 
-<img src="https://cdn.simpleicons.org/make/000000" width="24" height="24" />
-
-#### Embedded
-<img src="https://cdn.simpleicons.org/stmicroelectronics/0072c6" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="24" height="24" /> 
-<img src="https://cdn.simpleicons.org/platformio/F5822B" width="24" height="24" />
-
-#### Cloud & DevOps
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="24" height="24" /> 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="24" height="24" /> 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="24" height="24" /> 
-<img src="https://cdn.simpleicons.org/githubactions/2088ff" width="24" height="24" />
+![Skills](https://skillicons.dev/api?skills=c,cpp,cs,python,bash,html,vscode,linux,git,github,docker,cmake,make,arduino,raspberrypi,azure,kubernetes,mysql,githubactions,stm32,platformio&theme=dark&height=22)
 
 ---
 
@@ -47,6 +22,9 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=compact)
+
+![GitHub Streak](https://github-readme-streak.vercel.app/?user=bubba-94&theme=radical&hide_border=true)
+
 
 ---
 
