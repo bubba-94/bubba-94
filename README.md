@@ -15,7 +15,16 @@
   </a>
 </p>
 
-### 📫 Contact
+---
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true&width=370&height=195" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=compact&width=370&height=195" />
+</p>
+
+<p align="center">
+  <b>Get in touch</b>
+</p>
 
 <p align="center">
   <a href="mailto:carljohan.modin@gmail.com">
@@ -24,13 +33,6 @@
   <a href="https://www.linkedin.com/in/johan-modin-025b74329/">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true&width=370" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=compact&width=370" />
 </p>
 
 <!---
