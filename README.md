@@ -12,16 +12,33 @@
 ### Familiar technologies
 
 #### Languages
-![C++](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg?height=24) ![C](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg?height=24) ![Python](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg?height=24) ![C#](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg?height=24) ![Bash](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg?height=24) ![HTML5](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg?height=24)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="24" height="24" />
 
 #### Tools
-![VS Code](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg?height=24) ![Linux](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg?height=24) ![Git](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg?height=24) ![GitHub](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg?height=24) ![Docker](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg?height=24) ![CMake](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg?height=24) ![Make](https://cdn.simpleicons.org/make/000000?height=24)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cmake/cmake-original.svg" width="24" height="24" /> 
+<img src="https://cdn.simpleicons.org/make/000000" width="24" height="24" />
 
 #### Embedded
-![STM32](https://cdn.simpleicons.org/stmicroelectronics/0072c6?height=24) ![Arduino](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg?height=24) ![Raspberry Pi](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg?height=24) ![PlatformIO](https://cdn.simpleicons.org/platformio/F5822B?height=24)
+<img src="https://cdn.simpleicons.org/stmicroelectronics/0072c6" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" width="24" height="24" /> 
+<img src="https://cdn.simpleicons.org/platformio/F5822B" width="24" height="24" />
 
 #### Cloud & DevOps
-![Azure](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg?height=24) ![Kubernetes](https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg?height=24) ![MySQL](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg?height=24) ![GitHub Actions](https://cdn.simpleicons.org/githubactions/2088ff?height=24)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="24" height="24" /> 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="24" height="24" /> 
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" width="24" height="24" /> 
+<img src="https://cdn.simpleicons.org/githubactions/2088ff" width="24" height="24" />
 
 ---
 
