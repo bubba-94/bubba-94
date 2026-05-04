@@ -1,7 +1,7 @@
 <h1 align="center">I'm bubba-94</h1>
 
 <p align="center">
-  Skiing enthusiaist | Food addiction 
+  Skiing enthusiaist | Addicted to food 
 </p>
 
 <p align="center">
