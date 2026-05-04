@@ -1,30 +1,24 @@
-# This is bubba-94
-
-- 👋 Hi, I’m @bubba-94
-- 👀 I’m interested in skiing (on-piste ofc) and ofc this newly found interest for programming!
-- 🌱 I’m currently learning C, C++ and C#.
-- 💞️ I’m looking to collaborate on anything when the confidence is high enough.
-- 📫 How to reach me ? You already did.
-- ⚡ Fun fact: The world's largest living organism is a giant fungus that spans 2,385 acres (that's about 1,665 football fields!) in Oregon's Malheur National Forest. 🍄
-
----
+<h1 align="center">I'm bubba-94</h1>
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=cpp,c,cs,python,bash,html,vscode,linux,cmake,raspberrypi,arduino,azure,mysql,git,kubernetes,docker" />
-  </a>
+  Skiing enthusiaist | Food addiction 
 </p>
 
----
+<p align="center">
+  Trying to figure out how the world stays connected
+</p>
+
+<h2 align="center">Familiar with</h2>
 
 <p align="center">
-  <img height=300 src="https://github-readme-stats.vercel.app/api?username=bubba-94&show_icons=true&theme=radical&hide_border=true&width=370&height=195" />
+  <img src="https://skillicons.dev/icons?i=cpp,c,cs,python,bash,html,vscode,linux,cmake,raspberrypi,arduino,azure,mysql,git,kubernetes,docker" />
+</p>
+
+<p align="center">
   <img height=300 src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=donut&width=370&height=195" />
 </p>
 
-<p align="center">
-  <b>GET IN TOUCH</b>
-</p>
+<h4 align="center">Get in touch</h2>
 
 <p align="center">
   <a href="mailto:carljohan.modin@gmail.com">
@@ -35,7 +29,8 @@
   </a>
 </p>
 
-<!---
-bubba-94/bubba-94 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<hr/>
+
+<p align="center">
+  ⚡ Fun fact: A giant fungus in Oregon spans over 2,300 acres 🍄
+</p>
