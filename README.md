@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <img height=300 src="https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94&theme=radical&hide_border=true&layout=donut&width=370&height=195" />
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bubba-94)](https://github.com/bubba-94/github-readme-stats)
 </p>
 
 <h4 align="center">Get in touch</h2>
